@@ -18,6 +18,18 @@ const Header = () => {
           <a href="#" className="hover:text-scotiabank-red">Acerca de</a>
           <a href="#" className="hover:text-scotiabank-red">Ayuda</a>
         </nav>
+        <div className="hidden md:flex items-center space-x-4">
+          <img 
+            src="https://www.scotiabank.com.pe/content/dam/scotiabank/peru/images/corp/logo-felaban-header.png" 
+            alt="Felaban Logo" 
+            className="h-8"
+          />
+          <img 
+            src="https://www.scotiabank.com.pe/content/dam/scotiabank/peru/images/corp/logo-asb-header.png" 
+            alt="ASB Logo" 
+            className="h-8"
+          />
+        </div>
       </div>
     </header>
   );
